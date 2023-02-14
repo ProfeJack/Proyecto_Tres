@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+       var arreglo = [1,2,3,4,5,6]
+
+        var resul = arreglo.find(x => (x%7)==0 )
+
+        console.log(resul)
+
+        //-----------------------------------
+
+        var arreglo_2 = [1,2,3,4,5,6,7]
+
+        var valor = arreglo_2.findIndex(a => (a%11)==0)
+
+        console.log(valor)
+
+
+        //------------------------------------------------
+
+        var arreglo_3 = [15,2,47,36,20,11,19,14]
+
+        var nuevo = arreglo_3.filter(b => (b%2)==1)
+
+        console.log(nuevo)
+
+
+    </script>
+</body>
+</html>
